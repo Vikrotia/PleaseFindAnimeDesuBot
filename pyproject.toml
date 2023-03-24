@@ -2,8 +2,8 @@
 name = "main_tg"
 version = "0.1.0"
 description = ""
-authors = ["Ilia Kaziamov <kaziamov@outlook.com>"]
-readme = "README.md"
+authors = ["utheryde"]
+#readme = "README.md"
 #packages = [{include = "main_tg"}]
 packages = []
 
