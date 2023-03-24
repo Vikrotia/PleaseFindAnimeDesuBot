@@ -4,7 +4,8 @@ version = "0.1.0"
 description = ""
 authors = ["Ilia Kaziamov <kaziamov@outlook.com>"]
 readme = "README.md"
-packages = [{include = "main_tg"}]
+#packages = [{include = "main_tg"}]
+packages = []
 
 [tool.poetry.dependencies]
 python = "^3.8"
