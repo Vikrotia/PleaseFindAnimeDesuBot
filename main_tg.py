@@ -12,9 +12,10 @@ from aiogram.dispatcher.filters.state import StatesGroup, State
 from aiogram.dispatcher import FSMContext
 from main_class import AnimeFinder
 
+PROXY_URL = "http://proxy.server:3128"
 storage = MemoryStorage()
 bot = Bot(TOKEN_API)
-dp = Dispatcher(bot, storage=storage)
+dp = Dispatcher(bot, storage=storage, proxy=PROXY_URL)
 
 class ClientStatesGroup(StatesGroup):
     link_state = State()
