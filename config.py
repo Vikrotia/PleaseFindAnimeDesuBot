@@ -1,4 +1,4 @@
-TOKEN_API = "6257409983:AAF3GUgtshyYZp6eSilTaObeu46smxbk3as"
+TOKEN_API = "SECRET"
 
 START_TEXT = """
 Please select a screenshot upload method
